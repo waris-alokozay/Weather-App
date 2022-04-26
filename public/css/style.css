@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-image: url(/img/bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-brand-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* .nav-bg {
+  background-color: #a31818;
+} */
+
+h1 {
+  padding: 1em 12%;
+
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color: #000;
+}
+
+.inp {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #fff;
+  background: none;
+  outline: none;
+  width: 300px;
+  font-size: larger;
+  color: #fff;
+  font-size: larger;
+  margin-top: 40%;
+  padding-bottom: 6px;
+}
+.form-box {
+  padding: 0 12%;
+}
+.inp::placeholder {
+  font-size: larger;
+  color: #fff;
+  background: none;
+}
+.btn {
+  background-color: #e32020;
+  color: #fff;
+  font-size: larger;
+}
+.btn:hover {
+  background-color: #8d0909;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4em;
+}
+.card {
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px; /* Created with https://www.css-gradient.com */
+  /* Created with https://www.css-gradient.com */
+  /* Created with https://www.css-gradient.com */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    357deg,
+    rgba(2, 0, 36, 0.6786064767703957) 0%,
+    rgba(90, 152, 113, 0.8494748241093313) 30%,
+    rgba(39, 186, 194, 0.603) 98%,
+    rgba(0, 213, 255, 0.74) 100%
+  );
+  border: none;
+}
+
+.city,
+.temp,
+.card-text {
+  margin-left: 15px;
+}
+
+/* img:hover {
+  transform: rotate(10deg);
+  transition: 0.3s;
+}
+img:not(:hover) {
+  transition: 0.3s;
+} */
+
+.city {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(55, 223, 142, 0.747);
+  max-width: 120px;
+  color: rgb(0, 0, 0);
+  padding: 0 5px;
+  font-size: larger;
+}
+.temp {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+.imgUrl {
+  width: 10em;
+}
+.weatherDis {
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.603);
+  position: relative;
+  text-align: center;
+  top: 1em;
+}
+
+#about-page {
+  color: #e32020;
+}
+
+@media screen and (max-width: 650px) {
+  .inp {
+    width: 200px;
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .inp {
+    width: 150px;
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .inp {
+    width: 120px;
+    font-size: 9pt;
+  }
+}
