@@ -129,7 +129,7 @@ app.post("/result", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`runnning in server port ${port}`);
 });
 
