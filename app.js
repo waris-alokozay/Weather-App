@@ -92,7 +92,7 @@ app.post("/result", (req, res) => {
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="city card-title">${city}</h5>
-              <p class="temp card-text"><strong>${temp}℃</strong></p>
+              <p class="temp card-text"><strong>${temp} Celsius</strong></p>
 
               <p class="weatherDis">${weatherDis}</p>
             </div>
@@ -129,7 +129,7 @@ app.post("/result", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`runnning in server port ${port}`);
 });
 

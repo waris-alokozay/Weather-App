@@ -80,14 +80,8 @@ h1 {
   box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px; /* Created with https://www.css-gradient.com */
   /* Created with https://www.css-gradient.com */
   /* Created with https://www.css-gradient.com */
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    357deg,
-    rgba(2, 0, 36, 0.6786064767703957) 0%,
-    rgba(90, 152, 113, 0.8494748241093313) 30%,
-    rgba(39, 186, 194, 0.603) 98%,
-    rgba(0, 213, 255, 0.74) 100%
-  );
+
+  background-color: rgba(0, 135, 90, 0.71);
   border: none;
 }
 
@@ -117,7 +111,9 @@ img:not(:hover) {
 .temp {
   font-size: 3rem;
   font-weight: bolder;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 10px 25px rgb(81, 67, 21), -10px 10px 25px rgb(81, 67, 21),
+    -10px -10px 25px rgb(81, 67, 21), 10px -10px 25px rgb(81, 67, 21);
 }
 .imgUrl {
   width: 10em;
@@ -125,6 +121,7 @@ img:not(:hover) {
 .weatherDis {
   color: rgb(255, 255, 255);
   margin-left: 15px;
+  font-size: larger;
 }
 footer p {
   color: rgba(255, 255, 255, 0.603);
